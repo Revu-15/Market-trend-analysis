@@ -4,7 +4,7 @@
 
 A beginner-friendly machine learning project that predicts stock market trends using technical indicators and advanced ML algorithms.
 
-📄 **Project Report**: [View Report](https://drive.google.com/file/d/1LIio-MueqKPEt0TFII_5pnHjLJ-2gp9y/view?usp=sharing)  
+📄 **Project Report**: [View Report]()  
 📊 **Live Dashboard**: [Launch Dashboard](https://ai-market-trend-analysis-v5.streamlit.app/)  
 🎥 **Video Demo & Presentation**: [Watch Demo](https://drive.google.com/file/d/1yK8rTRIiBpl8bEomu9dXDbt7dxYux-PA/view?usp=drive_link)
 
