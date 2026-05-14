@@ -7,24 +7,18 @@ from plotly.subplots import make_subplots
 import yfinance as yf
 from datetime import datetime, timedelta
 import sys
-import os
+from pathlib import Path
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
-src_path = os.path.abspath(os.path.join(current_dir, "..", "src"))
-
-if src_path not in sys.path:
-    sys.path.append(src_path)
-
-# Optional: Debug print
-print("SRC Path:", src_path)
+# Fix import paths for Streamlit Cloud
+ROOT_DIR = Path(__file__).parent.parent
+sys.path.append(str(ROOT_DIR))
 
 try:
-    from model_trainer import ModelTrainer
-    from feature_engineer import FeatureEngineer
-    from data_collector import StockDataCollector
+    from src.model_trainer import ModelTrainer
+    from src.feature_engineer import FeatureEngineer
+    from src.data_collector import StockDataCollector
 
 except ImportError as e:
-    import streamlit as st
     st.error(f"Error importing modules: {e}")
     st.stop()
 
