@@ -1,17 +1,18 @@
-streamlit==1.37.0
-pandas==2.2.2
-numpy==1.26.4
-matplotlib==3.8.4
-plotly==5.22.0
+streamlit
+pandas
+numpy
+matplotlib
+plotly
 
-scikit-learn==1.4.2
-xgboost==2.0.3
+scikit-learn
+xgboost
 
-yfinance==0.2.40
+yfinance
 
-streamlit-option-menu==0.3.12
+streamlit-option-menu
 
-joblib==1.4.2
-tqdm==4.66.4
-requests==2.32.3
-rich==13.7.1
+joblib
+tqdm
+requests
+rich
+
